@@ -1,0 +1,148 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>superNotebook power by FENewBie</title>
+<link href="css/superNotebook.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="area clearfix">
+	<div class="top clearfix">
+		<div class="logo">
+			<a href="#"><img src="img/logo.png" width="100%" alt="superNotebook logo"/></a>
+		</div>
+		<div class="title clearfix">
+			<h1 class="t0">superNotebook</h1>
+			<span class="t1">v1.0.0</span>
+			<span class="t2">
+				<span class="t">power by</span>
+				<a href="#">FENewBie</a>
+			</span>
+		</div>
+	</div>
+	<div class="main">
+		<div class="categoryBox">
+			<div class="categoryBoxIn">
+				<div class="tinyTitleBox">
+					<h2 class="t">分类</h2>
+					<button class="btn iconDelCategory" id="iconDelCategory">删除分类</button>
+				</div>
+				<ul class="category" id="category">
+					<li class="li on">
+						<span class="t">分类标题</span>
+						<span class="n">(<span tag="num">888</span>)</span>
+						<button class="btn iconDel">删除</button>
+						<button class="btn iconEdit">修改</button>
+					</li>
+					<li class="li">
+						<span class="t">分类标题</span>
+						<span class="n">(<span tag="num">888</span>)</span>
+						<!--<div class="editCategoryBox clearfix">
+							<textarea class="textarea">分类标题</div>
+							<button class="btn iconCancel" tag="iconCancel">取消</button>
+							<button class="btn iconSubmit c1">确定</button>
+						</div>-->
+						<button class="btn iconDel">删除</button>
+						<button class="btn iconEdit">修改</button>
+					</li>
+					<li class="li">
+						<span class="t">分类标题</span>
+						<span class="n">(<span tag="num">888</span>)</span>
+						<button class="btn iconDel">删除</button>
+						<button class="btn iconEdit">修改</button>
+					</li>
+					<li class="li">
+						<span class="t">分类标题</span>
+						<span class="n">(<span tag="num">888</span>)</span>
+						<button class="btn iconDel">删除</button>
+						<button class="btn iconEdit">修改</button>
+					</li>
+					<li class="li">
+						<span class="t">分类标题</span>
+						<span class="n">(<span tag="num">888</span>)</span>
+						<button class="btn iconDel">删除</button>
+						<button class="btn iconEdit">修改</button>
+					</li>
+				</ul>
+				<div class="addCategoryBox clearfix" id="addCategoryBox">
+					<div class="textarea" contenteditable="true">请输入分类标题</div>
+					<button class="btn iconCancel" id="iconCancel">取消</button>
+					<button class="btn iconSubmit c1">确定</button>
+				</div>
+				<div class="btnBox clearfix">
+					<button class="btn iconAddCategory" title="增加分类" id="iconAddCategory">增加分类</button>
+				</div>
+			</div>
+		</div>
+		<div class="listBox">
+			<div class="listBoxIn">
+				<div class="listBtnBox clearfix">
+					<div class="tinyTitleBox2">
+						<h3 class="t">分类标题 <span class="n">(<span tag="num">888</span>)</span></h3>
+					</div>
+					<button class="btn iconAddNewNotes c1" id="iconAddNewNotes">写新笔记</button>
+				</div>
+				<ul class="list" id="list">
+					<li class="li on">
+						<div class="t">标题</div>
+						<div class="d">markdown文字markdown文字markdown文字markdown文字markdown文字markdown文字markdown文字</div>
+						<button class="btn iconDel">删除</button>
+					</li>
+					<li class="li">
+						<div class="t">标题</div>
+						<div class="d">明细</div>
+						<button class="btn iconDel">删除</button>
+					</li>
+					<li class="li">
+						<div class="t">标题</div>
+						<div class="d">明细</div>
+						<button class="btn iconDel">删除</button>
+					</li>
+					<li class="li">
+						<div class="t">标题</div>
+						<div class="d">明细</div>
+						<button class="btn iconDel">删除</button>
+					</li>
+					<li class="li">
+						<div class="t">标题</div>
+						<div class="d">明细</div>
+						<button class="btn iconDel">删除</button>
+					</li>
+					<li class="li">
+						<div class="t">标题</div>
+						<div class="d">明细</div>
+						<button class="btn iconDel">删除</button>
+					</li>
+				</ul>
+				<div class="listBtnBox2 clearfix">
+					<button class="btn iconDelNotes" id="iconDelNotes">删除笔记</button>
+				</div>
+			</div>
+		</div>
+		<div class="notebook clearfix">
+			<div class="notebookIn hide" id="notebookEdit">
+				<div class="t" contenteditable="true"> 分类标题 </div>
+				<span class="line"></span>
+				<div class="d" contenteditable="true"> 内容 </div>
+				<div class="submitBox">
+					<button class="btn iconCancel" tag="cancel">取消</button>
+					<button class="btn iconAdd c1">提交</button>
+				</div>
+			</div>
+			<div class="notebookIn markdown">
+				<div class="t"> 分类标题 </div>
+				<span class="line"></span>
+				<div class="d"> 分类标题 </div>
+				<div class="submitBox">
+					<button class="btn" id="notebookModify">修改</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/superNoteBook.js"></script>
+</body>
+</html>
