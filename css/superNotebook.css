@@ -1,5 +1,8 @@
-﻿/* superNotebook @St. 2015-07-25-11.46 */
-
+﻿/*
+ * superNotebook.css
+ * @St. 2015-07-25-11.46 begin
+ * @St. 2015-08-19-14.46
+**/
 /* base */
 body,
 p,
@@ -387,7 +390,7 @@ body { background-color: #f8fbfc; }
 	padding-left: 20px;
 }
 .listBox .list .li {
-	line-height: 36px;
+	line-height: 24px;
 	font-size: 14px;
 	color: #fff18d;
 	border-bottom: #FFFFFF 1px dotted;
@@ -413,15 +416,19 @@ body { background-color: #f8fbfc; }
 	-moz-opacity: 1;
 	opacity: 1;
 }
-.listBox .list .li .t { color: rgba(14,81,167, 1); }
+.listBox .list .li .t {
+	color: rgba(14,81,167, 1);
+	padding: 8px 0 8px 0;
+}
 .listBox .list .li .d {
 	color: #FFFFFF;
-	line-height: 24px;
+	line-height: 22px;
 	padding-bottom: 12px;
-	max-height: 72px;
-	min-height: 24px;
+	max-height: 35px;
 	overflow: hidden;
 	font-weight: normal !important;
+	margin-bottom: 4px;
+	font-size:12px;
 }
 .listBox .list .li.on .d,
 .listBox .list .li:hover .d { color: #999999; }
@@ -537,65 +544,65 @@ body { background-color: #f8fbfc; }
 
 
 
-/* 
+/** 
 
 Define the keyframe and changes
 
-*/
+*
 
-/* Chrome, Safari */
+* Chrome, Safari *
 
 @-webkit-keyframes easeAnimation {
  0% {
- transform: rotate(0deg);
 -webkit-transform: rotate(0deg);
 -moz-transform: rotate(0deg);
+ transform: rotate(0deg);
 }
  100% {
- transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 -moz-transform: rotate(360deg);
+ transform: rotate(360deg);
 }
 }
-/* Firefox */
+* Firefox *
 
 @-moz-keyframes easeAnimation {
 0% {
- transform: rotate(0deg);
 -webkit-transform: rotate(0deg);
 -moz-transform: rotate(0deg);
+ transform: rotate(0deg);
 }
  100% {
- transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 -moz-transform: rotate(360deg);
+ transform: rotate(360deg);
 }
 }
-/* Opera */
+* Opera *
 
 @-o-keyframes easeAnimation {
 0% {
- transform: rotate(0deg);
 -webkit-transform: rotate(0deg);
 -moz-transform: rotate(0deg);
+ transform: rotate(0deg);
 }
  100% {
- transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 -moz-transform: rotate(360deg);
+ transform: rotate(360deg);
 }
 }
-/* Standard syntax */
+* Standard syntax *
 
 @keyframes easeAnimation {
 0% {
- transform: rotate(0deg);
 -webkit-transform: rotate(0deg);
 -moz-transform: rotate(0deg);
+ transform: rotate(0deg);
 }
  100% {
- transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 -moz-transform: rotate(360deg);
+ transform: rotate(360deg);
 }
-}
+}*/

@@ -15,10 +15,10 @@
 		</div>
 		<div class="title clearfix">
 			<h1 class="t0">superNotebook</h1>
-			<span class="t1">v1.0.0</span>
+			<span class="t1">v0.1.0</span>
 			<span class="t2">
 				<span class="t">power by</span>
-				<a href="#">FENewBie</a>
+				<a href="#">St. &amp; FENewBie</a>
 			</span>
 		</div>
 	</div>
@@ -80,7 +80,7 @@
 			<div class="listBoxIn">
 				<div class="listBtnBox clearfix">
 					<div class="tinyTitleBox2">
-						<h3 class="t">分类标题 <span class="n">(<span tag="num">888</span>)</span></h3>
+						<h3 class="t"><span id="subNavName">分类标题</span> <span class="n">(<span tag="num" id="subNavNameNUm">888</span>)</span></h3>
 					</div>
 					<button class="btn iconAddNewNotes c1" id="iconAddNewNotes">写新笔记</button>
 				</div>
@@ -123,18 +123,17 @@
 		</div>
 		<div class="notebook clearfix">
 			<div class="notebookIn hide" id="notebookEdit">
-				<div class="t" contenteditable="true"> 分类标题 </div>
-				<span class="line"></span>
+				<div class="t" contenteditable="true"> 分类标题1 </div>
 				<div class="d" contenteditable="true"> 内容 </div>
 				<div class="submitBox">
 					<button class="btn iconCancel" tag="cancel">取消</button>
 					<button class="btn iconAdd c1">提交</button>
 				</div>
 			</div>
-			<div class="notebookIn markdown">
-				<div class="t"> 分类标题 </div>
+			<div class="notebookIn markdown" id="markdownCtl">
+				<div class="t" id="markdownName"> 分类标题2 </div>
 				<span class="line"></span>
-				<div class="d"> 分类标题 </div>
+				<div class="d" id="markdownTxt"> 分类标题 </div>
 				<div class="submitBox">
 					<button class="btn" id="notebookModify">修改</button>
 				</div>
@@ -143,6 +142,7 @@
 	</div>
 </div>
 <script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/json.js"></script>
 <script src="js/superNotebook.js"></script>
 </body>
 </html>
