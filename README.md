@@ -1,6 +1,12 @@
 # superNotebook 
 
-* superNotebook v1.0.0
+* superNotebook v0.1.0
+
+## @St. 2015-08-19-15.07
+
+* 我回来了，暂时还有点空，昨天开始搞读取json，渲染到html中的功能，感谢我的朋友大王！
+
+* 近期任务是继续添加增、删、改的基本功能，markdown解析器我打算放到最后处理，暂时怕没有时间做
 
 ## @St. 2015-07-26-06.53
 
@@ -16,3 +22,4 @@
 
 * 我睡会儿去。。。。
 
+### demo地址 http://fenewbie.github.io/snb/
