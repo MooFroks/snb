@@ -544,13 +544,11 @@ body { background-color: #f8fbfc; }
 
 
 
-/** 
+/*
+Define the keyframe and 
+*/
 
-Define the keyframe and changes
-
-*
-
-* Chrome, Safari *
+/* Chrome, Safari */
 
 @-webkit-keyframes easeAnimation {
  0% {
@@ -605,4 +603,4 @@ Define the keyframe and changes
 -moz-transform: rotate(360deg);
  transform: rotate(360deg);
 }
-}*/
+}
